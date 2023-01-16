@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.antlr.v4.test.runtime.TestLeftRecursion" time="2.932" tests="98" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-17.0.5.0.8-1.fc37.x86_64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/voodooattack/devel/work/datadocs/antlr4ts/tool"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/voodooattack/devel/work/datadocs/antlr4ts/tool"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.0.18-300.fc37.x86_64"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/voodooattack"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="voodooattack"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-17.0.5.0.8-1.fc37.x86_64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&amp;component=java-17-openjdk&amp;version=37"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="(Red_Hat-17.0.5.0.8-1.fc37)"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase name="testAmbigLR_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.034"/>
+  <testcase name="testAmbigLR_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.025"/>
+  <testcase name="testAmbigLR_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testAmbigLR_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testAmbigLR_5" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testDeclarations_10" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testDirectCallToLeftRecursiveRule_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.02"/>
+  <testcase name="testDirectCallToLeftRecursiveRule_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.02"/>
+  <testcase name="testDirectCallToLeftRecursiveRule_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.019"/>
+  <testcase name="testReturnValueAndActionsList1_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testReturnValueAndActionsList1_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testReturnValueAndActionsList1_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testReturnValueAndActionsList1_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testReturnValueAndActionsList2_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testReturnValueAndActionsList2_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testReturnValueAndActionsList2_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testReturnValueAndActionsList2_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testExpressions_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testExpressions_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testExpressions_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testExpressions_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testExpressions_5" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testExpressions_6" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.026"/>
+  <testcase name="testExpressions_7" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testTernaryExpr_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testTernaryExpr_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testTernaryExpr_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testTernaryExpr_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.02"/>
+  <testcase name="testTernaryExpr_5" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testTernaryExpr_6" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testTernaryExpr_7" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.021"/>
+  <testcase name="testTernaryExpr_8" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.02"/>
+  <testcase name="testTernaryExpr_9" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.02"/>
+  <testcase name="testJavaExpressions_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.032"/>
+  <testcase name="testJavaExpressions_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.031"/>
+  <testcase name="testJavaExpressions_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.033"/>
+  <testcase name="testJavaExpressions_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.032"/>
+  <testcase name="testJavaExpressions_5" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.04"/>
+  <testcase name="testJavaExpressions_6" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.046"/>
+  <testcase name="testJavaExpressions_7" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.04"/>
+  <testcase name="testJavaExpressions_8" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.041"/>
+  <testcase name="testJavaExpressions_9" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.041"/>
+  <testcase name="testWhitespaceInfluence_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.042"/>
+  <testcase name="testWhitespaceInfluence_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.053"/>
+  <testcase name="testPrefixAndOtherAlt_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.044"/>
+  <testcase name="testPrefixAndOtherAlt_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.031"/>
+  <testcase name="testPrecedenceFilterConsidersContext" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.025"/>
+  <testcase name="testReturnValueAndActionsAndLabels_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.033"/>
+  <testcase name="testReturnValueAndActionsAndLabels_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.028"/>
+  <testcase name="testReturnValueAndActionsAndLabels_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.031"/>
+  <testcase name="testReturnValueAndActionsAndLabels_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.03"/>
+  <testcase name="testJavaExpressions_10" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.04"/>
+  <testcase name="testJavaExpressions_11" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.042"/>
+  <testcase name="testJavaExpressions_12" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.052"/>
+  <testcase name="testMultipleActions_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.028"/>
+  <testcase name="testMultipleActions_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.03"/>
+  <testcase name="testMultipleActions_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.03"/>
+  <testcase name="testTernaryExprExplicitAssociativity_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.027"/>
+  <testcase name="testTernaryExprExplicitAssociativity_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.026"/>
+  <testcase name="testTernaryExprExplicitAssociativity_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.029"/>
+  <testcase name="testTernaryExprExplicitAssociativity_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.026"/>
+  <testcase name="testTernaryExprExplicitAssociativity_5" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.024"/>
+  <testcase name="testTernaryExprExplicitAssociativity_6" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.028"/>
+  <testcase name="testTernaryExprExplicitAssociativity_7" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.036"/>
+  <testcase name="testTernaryExprExplicitAssociativity_8" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.043"/>
+  <testcase name="testTernaryExprExplicitAssociativity_9" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.043"/>
+  <testcase name="testMultipleAlternativesWithCommonLabel_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.029"/>
+  <testcase name="testMultipleAlternativesWithCommonLabel_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.035"/>
+  <testcase name="testMultipleAlternativesWithCommonLabel_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.03"/>
+  <testcase name="testMultipleAlternativesWithCommonLabel_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.034"/>
+  <testcase name="testMultipleAlternativesWithCommonLabel_5" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.048"/>
+  <testcase name="testMultipleActionsPredicatesOptions_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.045"/>
+  <testcase name="testMultipleActionsPredicatesOptions_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.039"/>
+  <testcase name="testMultipleActionsPredicatesOptions_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.037"/>
+  <testcase name="testSimple_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.029"/>
+  <testcase name="testSimple_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.028"/>
+  <testcase name="testSimple_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.034"/>
+  <testcase name="testSemPred" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.032"/>
+  <testcase name="testSemPredFailOption" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.034"/>
+  <testcase name="testReturnValueAndActions_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.033"/>
+  <testcase name="testReturnValueAndActions_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.031"/>
+  <testcase name="testReturnValueAndActions_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.031"/>
+  <testcase name="testReturnValueAndActions_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.035"/>
+  <testcase name="testLabelsOnOpSubrule_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.032"/>
+  <testcase name="testLabelsOnOpSubrule_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.029"/>
+  <testcase name="testLabelsOnOpSubrule_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.041"/>
+  <testcase name="testPrefixOpWithActionAndLabel_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.033"/>
+  <testcase name="testPrefixOpWithActionAndLabel_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.04"/>
+  <testcase name="testPrefixOpWithActionAndLabel_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.048"/>
+  <testcase name="testDeclarations_1" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.04"/>
+  <testcase name="testDeclarations_2" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.035"/>
+  <testcase name="testDeclarations_3" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.022"/>
+  <testcase name="testDeclarations_4" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testDeclarations_5" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.024"/>
+  <testcase name="testDeclarations_6" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.024"/>
+  <testcase name="testDeclarations_7" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testDeclarations_8" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.023"/>
+  <testcase name="testDeclarations_9" classname="org.antlr.v4.test.runtime.TestLeftRecursion" time="0.024"/>
+</testsuite>
